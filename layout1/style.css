@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+header,
+footer {
+  height: 100px;
+  border: 1px solid gray;
+  clear: both;
+}
+
+#topRow div {
+  height: 200px;
+  width: 33.33333%;
+  border: 1px solid gray;
+  float: left;
+}
+
+#bottomRow div {
+  height: 200px;
+  width: 50%;
+  border: 1px solid gray;
+  float: left;
+}
