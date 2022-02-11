@@ -4,6 +4,10 @@
   padding: auto;
 }
 
+body {
+  background-color: rgb(50, 50, 50);
+}
+
 header,
 footer {
   height: 100px;
@@ -20,4 +24,21 @@ section {
 
 #main {
   width: 50%;
+  background-color: rgb(255, 130, 255);
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    background-color: rgb(118, 233, 118);
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  section {
+    background-color: rgb(123, 196, 245);
+    width: calc(100% / 3);
+  }
+  #main {
+    display: none;
+  }
 }
