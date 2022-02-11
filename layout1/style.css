@@ -11,13 +11,13 @@ footer {
   clear: both;
 }
 
-div {
+section {
   height: 200px;
   width: 33.33333%;
   border: 1px solid gray;
   float: left;
 }
 
-#bottomRow div {
+.bottomRow {
   width: 50%;
 }
